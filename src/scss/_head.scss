@@ -86,7 +86,6 @@
                 background-repeat: no-repeat;
                 bottom: 33px;
                 right: 50%;
-                z-index: 10;
                 width: 20px;
                 height: 32px;
                 transform: translateX(50%);
@@ -134,21 +133,48 @@
 
 @media only screen and (min-width: 1440px) {
     .header {
-        height: 680px;
-        .header-icon{
+        height: 888px;
+
+        .header-icon {
             padding-top: 60px;
-            img{
+
+            img {
                 display: none;
             }
         }
-        .header-inner{
+
+        .header-inner {
             margin: 66px auto 0 auto;
-            .header-text-inner{
+            gap: 55px;
+
+            .header-text-inner {
                 flex-basis: 50%;
-                .header-text{
-                    :nth-child(1){
+
+                .header-text {
+                    :nth-child(1) {
                         font-size: 66px;
-                        width: 62%;
+                        width: 65%;
+                    }
+
+                    :nth-child(2) {
+                        font-size: 30px;
+                        font-weight: bold;
+                        width: 80%;
+                    }
+                }
+
+                .header-info-block {
+                    display: flex;
+
+                    a {
+                        flex-basis: 50%;
+                        height: 55px;
+                        margin: 28px 15px 0 0;
+                        width: 90px;
+                    }
+
+                    p {
+                        flex-basis: 50%;
                     }
                 }
             }
@@ -207,7 +233,8 @@
         position: static;
         display: flex;
         background: transparent;
-        img{
+
+        img {
             display: none;
         }
 
@@ -220,16 +247,18 @@
             gap: 44px;
             color: #fff;
         }
-        a{
+
+        a {
             position: absolute;
-            top: 8.3%;
+            top: 6.3%;
             right: 10%;
             color: #fff;
             border: 2px solid #fff;
         }
-        p{
+
+        p {
             position: absolute;
-            top: 9.3%;
+            top: 7%;
             right: 25%;
             color: #fff;
         }
