@@ -1,4 +1,37 @@
 .uslug {
     background: #faf8fb;
     position: relative;
+
+    .uslug-num {
+        position: absolute;
+        color: #faf8fb;
+        box-shadow: 0 0 20px #000;
+        font-size: 100px;
+    }
+
+    .uslug-inner {
+        font-weight: bold;
+
+        :nth-child(1) {
+            color: #7f38bd;
+            font-size: 25px;
+            margin-bottom: 22px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        :nth-child(2) {
+            font-size: 27px;
+            margin-bottom: 33px;
+        }
+
+        .uslug-ul {
+            li {
+                color: #5e606a;
+                line-height: 25px;
+                margin: 0;
+                font-weight: 400;
+                font-size: 16px;
+            }
+        }
+    }
 }
