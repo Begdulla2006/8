@@ -1,19 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.wrapper{
+
+.wrapper {
     position: relative;
     overflow: hidden;
 }
-.container{
+
+.container {
     width: 95%;
     margin: 0 auto;
 }
 
 @media only screen and (min-width: 768px) {
-    .container{
+    .container {
         width: 90%;
         margin: 0 auto;
     }
