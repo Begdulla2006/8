@@ -425,12 +425,16 @@
 .uslug {
   background: #faf8fb;
   position: relative;
+  padding-bottom: 155px;
 }
 .uslug .uslug-num {
   position: absolute;
   color: #faf8fb;
-  box-shadow: 0 0 20px #000;
-  font-size: 100px;
+  text-shadow: 0 0 20px #ece9ec;
+  font-size: 150px;
+  top: 22px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  left: 50px;
 }
 .uslug .uslug-inner {
   font-weight: bold;
@@ -438,12 +442,13 @@
 .uslug .uslug-inner :nth-child(1) {
   color: #7f38bd;
   font-size: 25px;
-  margin-bottom: 22px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .uslug .uslug-inner :nth-child(2) {
   font-size: 27px;
-  margin-bottom: 33px;
+  margin: 44px 0;
+  z-index: 3;
+  position: relative;
 }
 .uslug .uslug-inner .uslug-ul li {
   color: #5e606a;
@@ -451,4 +456,131 @@
   margin: 0;
   font-weight: 400;
   font-size: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .uslug {
+    padding-bottom: 50px;
+  }
+  .uslug .uslug-inner :nth-child(2) {
+    font-size: 40px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .uslug {
+    width: 75%;
+    margin: 0 auto;
+  }
+}
+.flip-swiper {
+  width: 100%;
+  padding: 55px 0;
+}
+.flip-swiper .flip-slide {
+  text-align: center;
+}
+.flip-swiper .flip-slide img {
+  width: 90%;
+}
+.flip-swiper .card-prev {
+  bottom: 10px;
+  position: absolute;
+  left: 50px;
+}
+.flip-swiper .card-next {
+  bottom: 10px;
+  position: absolute;
+  right: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  .flip-swiper .card-prev {
+    z-index: 1;
+    bottom: 135px;
+  }
+  .flip-swiper .card-next {
+    bottom: 135px;
+    z-index: 1;
+    right: 500px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .uslug {
+    display: flex;
+    gap: 113px;
+  }
+  .uslug .flip-swiper {
+    width: 60%;
+  }
+  .uslug .flip-swiper p {
+    position: absolute;
+    right: 140px;
+    bottom: -40px;
+  }
+  .uslug .flip-swiper .card-prev {
+    z-index: 1;
+    bottom: 10px;
+  }
+  .uslug .flip-swiper .card-next {
+    bottom: 10px;
+    z-index: 1;
+    right: 377px;
+  }
+}
+.uslug-in {
+  display: flex;
+  flex-wrap: wrap;
+  background: #883eca;
+  width: 90%;
+  bottom: 0;
+  position: absolute;
+  border-radius: 10px;
+  justify-content: space-around;
+  padding: 33px 0 25px 0;
+  left: 20px;
+  align-items: center;
+  color: #fff;
+  gap: 22px;
+}
+.uslug-in .uslug-inn-text {
+  width: 85%;
+  margin: 0 auto;
+}
+.uslug-in .uslug-inn-text :nth-child(2) {
+  font-weight: bold;
+}
+.uslug-in a {
+  background: #fb0275;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 77px;
+  border-radius: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .uslug-in {
+    bottom: 32px;
+    left: 39px;
+  }
+  .uslug-in .uslug-inn-text {
+    width: auto;
+    display: flex;
+    margin: 0;
+    gap: 30px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .uslug-in {
+    width: 444px;
+    left: 0;
+    padding: 33px 0;
+  }
+  .uslug-in .uslug-inn-text {
+    display: block;
+    width: 45%;
+  }
+  .uslug-in a {
+    width: 35%;
+    padding: 10px 40px;
+  }
 }

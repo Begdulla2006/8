@@ -1,3 +1,23 @@
+const flipswiper = new Swiper('.flip-swiper', {
+    direction: 'horizontal',
+    loop: true,
+      effect: "cube",
+      grabCursor: true,
+      cubeEffect: {
+        shadow: true,
+        slideShadows: true,
+        shadowOffset: 20,
+        shadowScale: 0.94,
+      },
+    navigation: {
+        nextEl: '.card-next',
+        prevEl: '.card-prev',
+    },
+});
+
+
+
+
 //   git init
 //   git add .
 //   $ git config --global user.name "John Doe"
