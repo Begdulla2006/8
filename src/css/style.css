@@ -426,6 +426,7 @@
   background: #faf8fb;
   position: relative;
   padding-bottom: 155px;
+  position: relative;
 }
 .uslug .uslug-num {
   position: absolute;
@@ -460,7 +461,20 @@
 
 @media only screen and (min-width: 768px) {
   .uslug {
-    padding-bottom: 50px;
+    padding: 55px 0;
+  }
+  .uslug::before {
+    content: "";
+    position: absolute;
+    background: url(../images/lines.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 200px;
+    top: -66px;
+    left: 50%;
+  }
+  .uslug .uslug-num {
+    top: 77px;
   }
   .uslug .uslug-inner :nth-child(2) {
     font-size: 40px;
