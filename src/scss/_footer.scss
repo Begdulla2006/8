@@ -1,0 +1,53 @@
+.pol-swiper{
+    padding: 22px 0 66px 0;
+    position: relative;
+    .pol{
+        box-shadow: 0 0 5px 0 #cecaca;
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 5px;
+        padding: 55px 10px;
+        img{
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 33px;
+        }
+        .pol-text{
+            line-height: 22px;
+            p:nth-child(2){
+                font-weight: bold;
+                font-size: 18px;
+                margin-top: 44px;
+            }
+            a{
+                text-decoration: none;
+                color: #50a2e2;
+                font-weight: bold;
+            }
+        }
+    }
+    .pol-prev{
+        left: 22px;
+        position: absolute;
+        bottom: 22px;
+    }
+    .pol-next{
+        right: 22px;
+        position: absolute;
+        bottom: 22px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .pol-swiper{
+        .pol{
+            display: flex;
+            flex-wrap: wrap;
+            img{
+            flex-basis: 100px;
+            }
+            .pol-text{
+                flex-basis: 48%;
+            }
+        }
+    }
+}
