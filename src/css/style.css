@@ -20,6 +20,12 @@
     margin: 0 auto;
   }
 }
+@media only screen and (min-width: 1024px) {
+  .container {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
 .header {
   background: url(../images/headerBg1.png);
   background-size: 100% 100%;
@@ -596,5 +602,127 @@
   .uslug-in a {
     width: 35%;
     padding: 10px 40px;
+  }
+}
+.inter {
+  padding: 77px 0;
+  position: relative;
+  height: 850px;
+}
+.inter .inter-num {
+  position: absolute;
+  font-size: 150px;
+  text-shadow: 0 0 10px #ece9ec;
+  top: 22px;
+  left: 44px;
+  color: #fff;
+  font-weight: bolder;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.inter .inter-inner :nth-child(1) {
+  margin: 22px 0;
+  font-weight: bold;
+  font-size: 27px;
+  z-index: 1;
+  position: relative;
+}
+.inter .inter-inner :nth-child(2) {
+  color: #5e606a;
+  margin: 50px 0 60px 0;
+  line-height: 22px;
+}
+.inter .inter-inner a {
+  text-decoration: none;
+  background: #fb0275;
+  color: #fff;
+  padding: 15px 78px;
+  border-radius: 22px;
+  z-index: 1;
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+}
+.inter .inter-photo {
+  position: absolute;
+  right: 0;
+  bottom: 155px;
+}
+.inter .inter-photo .in-d2 {
+  display: none;
+}
+.inter .inter-photo .in-d3 {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .inter {
+    padding: 130px 0;
+  }
+  .inter::before {
+    content: "";
+    position: absolute;
+    background: url(../images/lines.png);
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 130px;
+    left: 50%;
+    top: 10px;
+  }
+  .inter .inter-inner {
+    width: 70%;
+  }
+  .inter .inter-inner :nth-child(1) {
+    font-size: 35px;
+  }
+  .inter .inter-inner a {
+    padding: 15px 44px;
+    display: inline-block;
+  }
+  .inter .inter-photo {
+    bottom: 55px;
+  }
+  .inter .inter-photo .in-d2 {
+    display: block;
+  }
+  .inter .inter-photo .in-d1 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .inter .inter-inner {
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .inter {
+    margin-bottom: 100px;
+  }
+  .inter .inter-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 0 0 0 auto;
+  }
+  .inter .inter-inner :nth-child(1) {
+    width: 70%;
+  }
+  .inter .inter-inner :nth-child(2) {
+    width: 69%;
+  }
+  .inter .inter-inner a {
+    padding: 15px 40px;
+    position: absolute;
+    bottom: 400px;
+    left: 50%;
+  }
+  .inter .inter-photo {
+    bottom: -55px;
+    left: -100px;
+  }
+  .inter .inter-photo .in-d3 {
+    display: block;
+  }
+  .inter .inter-photo .in-d2 {
+    display: none;
   }
 }
