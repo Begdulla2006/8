@@ -901,3 +901,34 @@
     width: 95%;
   }
 }
+.faq {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.faq .faq-cas {
+  color: #7f38bd;
+  font-size: 27px;
+  font-weight: bold;
+}
+.faq .faq-inner {
+  flex-basis: 100%;
+}
+.faq .faq-inner .faq-text :nth-child(1) {
+  margin: 22px 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+.faq .faq-inner .faq-text :nth-child(2) {
+  color: #5e606a;
+  line-height: 22px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .faq {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  .faq .faq-inner {
+    flex-basis: 48%;
+  }
+}
