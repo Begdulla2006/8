@@ -22,6 +22,14 @@ const polswiper = new Swiper('.pol-swiper', {
     nextEl: '.pol-next',
     prevEl: '.pol-prev',
   },
+  centeredSlides: true,
+  breakpoints: {
+    1440: {
+      slidesPerView: 2,
+      spaceBetween: 10
+    },
+
+  }
 });
 
 
