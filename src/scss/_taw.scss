@@ -411,11 +411,13 @@
         }
 
         .poli-form {
+
             input {
                 width: 100%;
                 border: none;
                 border-bottom: 1px solid #cccccc;
                 padding: 20px 15px;
+                outline: none;
             }
 
             .form-sub {
@@ -429,34 +431,41 @@
         }
     }
 }
+
 @media only screen and (min-width: 768px) {
-    .poli{
+    .poli {
         padding-bottom: 77px;
-        .poli-text{
+
+        .poli-text {
             font-size: 17px;
             margin-bottom: 44px;
-            p:nth-child(2){
+
+            p:nth-child(2) {
                 font-size: 31px;
                 width: 60%;
             }
-            .poli-num{
+
+            .poli-num {
                 top: 80px;
             }
         }
-        .poli-photo{
+
+        .poli-photo {
             position: absolute;
             width: 420px;
             right: 0;
         }
-        .poli-inner{
+
+        .poli-inner {
             width: 40%;
         }
     }
 }
+
 @media only screen and (min-width: 1024px) {
-    .poli{
-        .poli-photo{
-            right:22vh;
+    .poli {
+        .poli-photo {
+            right: 22vh;
         }
     }
 }

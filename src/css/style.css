@@ -774,6 +774,7 @@
   border: none;
   border-bottom: 1px solid #cccccc;
   padding: 20px 15px;
+  outline: none;
 }
 .poli .poli-inner .poli-form .form-sub {
   background: #fb0275;
@@ -903,6 +904,7 @@
 }
 .faq {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-bottom: 55px;
 }
 .faq .faq-cas {
   color: #7f38bd;
@@ -911,6 +913,7 @@
 }
 .faq .faq-inner {
   flex-basis: 100%;
+  margin-bottom: 33px;
 }
 .faq .faq-inner .faq-text :nth-child(1) {
   margin: 22px 0;
@@ -923,12 +926,66 @@
 }
 
 @media only screen and (min-width: 1440px) {
-  .faq {
+  .faq .faq-log {
     display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap;
+    margin-top: 33px;
   }
-  .faq .faq-inner {
+  .faq .faq-log .faq-inner {
     flex-basis: 48%;
   }
+}
+.faq-form {
+  background: #7f38bd;
+  padding: 44px 15px 45px 15px;
+  border-radius: 10px;
+  color: #fff;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+.faq-form::before {
+  content: "";
+  position: absolute;
+  background: url(../images/formCircle.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 150px;
+  height: 150px;
+  top: -44px;
+  right: -60px;
+}
+.faq-form :nth-child(2) {
+  font-size: 22px;
+  width: 55%;
+  margin-bottom: 22px;
+}
+.faq-form .form-input ::placeholder {
+  color: #fff;
+  font-size: 15px;
+}
+.faq-form .form-input input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  width: 100%;
+  margin-bottom: 22px;
+}
+.faq-form .form-input .form-sub {
+  background: #fb0275;
+  border: none;
+  color: #fff;
+  width: 100%;
+  border-radius: 22px;
+  padding: 11px;
+  font-weight: bold;
+  margin: 0;
+  font-size: 18px;
+}
+
+.google-map {
+  width: 100%;
+  height: 555px;
+  border: 0;
 }
