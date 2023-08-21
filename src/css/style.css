@@ -79,7 +79,7 @@
   text-decoration: none;
   color: #fff;
   border-radius: 62px;
-  padding: 12px 70px;
+  padding: 12px 60px;
   font-size: 22px;
 }
 .header .header-info-block p {
@@ -442,7 +442,7 @@
   color: #faf8fb;
   text-shadow: 0 0 20px #ece9ec;
   font-size: 150px;
-  top: 22px;
+  top: 25px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   left: 50px;
 }
@@ -459,13 +459,14 @@
   margin: 44px 0;
   z-index: 3;
   position: relative;
+  line-height: 33px;
 }
 .uslug .uslug-inner .uslug-ul li {
   color: #5e606a;
-  line-height: 25px;
+  line-height: 30px;
   margin: 0;
-  font-weight: 400;
   font-size: 16px;
+  list-style: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -631,14 +632,14 @@
 }
 .inter .inter-inner :nth-child(2) {
   color: #5e606a;
-  margin: 50px 0 60px 0;
+  margin: 50px 0 55px 0;
   line-height: 22px;
 }
 .inter .inter-inner a {
   text-decoration: none;
   background: #fb0275;
   color: #fff;
-  padding: 15px 78px;
+  padding: 15px 70px;
   border-radius: 22px;
   z-index: 1;
   position: relative;
@@ -648,7 +649,7 @@
 .inter .inter-photo {
   position: absolute;
   right: 0;
-  bottom: 155px;
+  bottom: 111px;
 }
 .inter .inter-photo .in-d2 {
   display: none;
