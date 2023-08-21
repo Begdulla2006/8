@@ -1,0 +1,10 @@
+@mixin fontFamily($name , $src) {
+    @font-face {
+        font-family: $name;
+        src: url($src + ".eot?") format("eot"),
+            url($src + ".woff2") format("woff2"),
+            url($src + ".woff") format("woff"),
+            url($src + ".ttf") format("truetype"),
+            url($src + ".svg#Samplino") format("svg");
+    }
+}
