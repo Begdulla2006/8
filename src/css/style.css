@@ -48,7 +48,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 80%;
+  width: 95%;
   margin: 0 auto;
 }
 .header .header-icon a {
@@ -92,6 +92,9 @@
 @media only screen and (min-width: 768px) {
   .header {
     height: 666px;
+  }
+  .header .header-icon {
+    width: 100%;
   }
   .header .header-inner {
     display: flex;
@@ -309,10 +312,11 @@
 }
 .sxema-inner {
   position: relative;
-  max-width: 290px;
+  max-width: 300px;
   text-align: center;
   padding: 66px 0;
   height: 711px;
+  margin: 0 auto;
 }
 .sxema-inner p {
   width: 120px;
@@ -324,17 +328,17 @@
 .sxema-inner .sxema-block:nth-child(1) {
   position: absolute;
   top: 0;
-  right: 88px;
+  right: 95px;
 }
 .sxema-inner .sxema-block:nth-child(2) {
   position: absolute;
   top: 175px;
-  right: 0;
+  right: 13px;
 }
 .sxema-inner .sxema-block:nth-child(3) {
   position: absolute;
   top: 279px;
-  left: 20px;
+  left: 10px;
 }
 .sxema-inner .sxema-block:nth-child(4) {
   position: absolute;
@@ -343,7 +347,7 @@
 }
 .sxema-inner .sx-ml {
   position: absolute;
-  left: 111px;
+  left: 101px;
 }
 .sxema-inner .sx-tl {
   display: none;
@@ -364,22 +368,22 @@
   .sxema-inner .sxema-block:nth-child(1) {
     position: absolute;
     top: 0;
-    right: 390px;
+    right: 380px;
   }
   .sxema-inner .sxema-block:nth-child(2) {
     position: absolute;
     top: 100px;
-    right: 10px;
+    right: 0;
   }
   .sxema-inner .sxema-block:nth-child(3) {
     position: absolute;
     top: 190px;
-    left: -25px;
+    left: 0;
   }
   .sxema-inner .sxema-block:nth-child(4) {
     position: absolute;
     top: 322px;
-    left: 350px;
+    left: 352px;
   }
   .sxema-inner .sx-ml {
     display: none;
@@ -387,7 +391,8 @@
   .sxema-inner .sx-tl {
     display: block;
     position: absolute;
-    left: 100px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 @media only screen and (min-width: 1440px) {
@@ -555,7 +560,7 @@
   display: flex;
   flex-wrap: wrap;
   background: #883eca;
-  width: 90%;
+  width: 87.5%;
   bottom: 0;
   position: absolute;
   border-radius: 10px;
@@ -583,7 +588,7 @@
 
 @media only screen and (min-width: 768px) {
   .uslug-in {
-    bottom: 32px;
+    bottom: 5px;
     left: 39px;
   }
   .uslug-in .uslug-inn-text {
@@ -639,7 +644,7 @@
   text-decoration: none;
   background: #fb0275;
   color: #fff;
-  padding: 15px 70px;
+  padding: 15px 74px;
   border-radius: 22px;
   z-index: 1;
   position: relative;
@@ -716,8 +721,8 @@
   .inter .inter-inner a {
     padding: 15px 40px;
     position: absolute;
-    bottom: 400px;
-    left: 50%;
+    bottom: 377px;
+    left: 52%;
   }
   .inter .inter-photo {
     bottom: -55px;

@@ -150,7 +150,7 @@
     display: flex;
     flex-wrap: wrap;
     background: #883eca;
-    width: 90%;
+    width: 87.5%;
     bottom: 0;
     position: absolute;
     border-radius: 10px;
@@ -181,7 +181,7 @@
 
 @media only screen and (min-width: 768px) {
     .uslug-in {
-        bottom: 32px;
+        bottom: 5px;
         left: 39px;
 
         .uslug-inn-text {
@@ -246,7 +246,7 @@
             text-decoration: none;
             background: #fb0275;
             color: #fff;
-            padding: 15px 70px;
+            padding: 15px 74px;
             border-radius: 22px;
             z-index: 1;
             position: relative;
@@ -341,8 +341,8 @@
             a {
                 padding: 15px 40px;
                 position: absolute;
-                bottom: 400px;
-                left: 50%;
+                bottom: 377px;
+                left: 52%;
             }
         }
 

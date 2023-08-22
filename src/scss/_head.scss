@@ -18,7 +18,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        width: 80%;
+        width: 95%;
         margin: 0 auto;
 
         a {
@@ -70,6 +70,10 @@
 @media only screen and (min-width: 768px) {
     .header {
         height: 666px;
+
+        .header-icon {
+            width: 100%;
+        }
 
         .header-inner {
             display: flex;
@@ -340,10 +344,11 @@
 
 .sxema-inner {
     position: relative;
-    max-width: 290px;
+    max-width: 300px;
     text-align: center;
     padding: 66px 0;
     height: 711px;
+    margin: 0 auto;
 
     p {
         width: 120px;
@@ -357,19 +362,19 @@
     .sxema-block:nth-child(1) {
         position: absolute;
         top: 0;
-        right: 88px;
+        right: 95px;
     }
 
     .sxema-block:nth-child(2) {
         position: absolute;
         top: 175px;
-        right: 0;
+        right: 13px;
     }
 
     .sxema-block:nth-child(3) {
         position: absolute;
         top: 279px;
-        left: 20px;
+        left: 10px;
     }
 
     .sxema-block:nth-child(4) {
@@ -380,7 +385,7 @@
 
     .sx-ml {
         position: absolute;
-        left: 111px;
+        left: 101px;
     }
 
     .sx-tl {
@@ -405,25 +410,25 @@
         .sxema-block:nth-child(1) {
             position: absolute;
             top: 0;
-            right: 390px;
+            right: 380px;
         }
 
         .sxema-block:nth-child(2) {
             position: absolute;
             top: 100px;
-            right: 10px;
+            right: 0;
         }
 
         .sxema-block:nth-child(3) {
             position: absolute;
             top: 190px;
-            left: -25px;
+            left: 0;
         }
 
         .sxema-block:nth-child(4) {
             position: absolute;
             top: 322px;
-            left: 350px;
+            left: 352px;
         }
 
         .sx-ml {
@@ -433,7 +438,8 @@
         .sx-tl {
             display: block;
             position: absolute;
-            left: 100px;
+            left: 50%;
+            transform: translateX(-50%);
         }
     }
 }
