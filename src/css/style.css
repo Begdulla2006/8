@@ -15,7 +15,7 @@
 }
 
 .container {
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -644,7 +644,7 @@
   text-decoration: none;
   background: #fb0275;
   color: #fff;
-  padding: 15px 74px;
+  padding: 15px 66px;
   border-radius: 22px;
   z-index: 1;
   position: relative;
@@ -861,7 +861,7 @@
   font-weight: bold;
 }
 .pol-swiper .pol-prev {
-  left: 22px;
+  left: 27px;
   bottom: -22px;
   position: relative;
 }
@@ -891,6 +891,11 @@
   }
   .pol-swiper .pol .pol-text p:nth-child(2) {
     margin-top: 11px;
+  }
+  .pol-swiper .pol-prev {
+    left: 44px;
+    bottom: -22px;
+    position: relative;
   }
 }
 @media only screen and (min-width: 1024px) {

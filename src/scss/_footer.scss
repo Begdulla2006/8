@@ -44,7 +44,7 @@
     }
 
     .pol-prev {
-        left: 22px;
+        left: 27px;
         bottom: -22px;
         position: relative;
     }
@@ -81,6 +81,12 @@
                     margin-top: 11px;
                 }
             }
+        }
+
+        .pol-prev {
+            left: 44px;
+            bottom: -22px;
+            position: relative;
         }
     }
 }
